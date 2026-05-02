@@ -1,0 +1,8 @@
+services:
+
+  image-manager:
+    image: dangwminh/image-manager:latest
+    container_name: image_manager
+    restart: "no"
+    volumes:
+      - ./sandbox:/app/sandbox
