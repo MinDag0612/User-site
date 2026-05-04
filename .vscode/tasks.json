@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "python-version",
+      "type": "shell",
+      "command": "echo \"welcome to my project with python version: $(python --version), install python before run\" && docker compose up --build -d",
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    }
+  ]
+}
